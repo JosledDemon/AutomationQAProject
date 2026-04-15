@@ -1,0 +1,1010 @@
+﻿======================================
+Archivo: D:\Calidad de software\PROJECTO FINAL\AutomationQAProject\.idea\dictionaries\project.xml
+======================================
+<component name="ProjectDictionaryState">
+  <dictionary name="project">
+    <words>
+      <w>boton</w>
+      <w>realizar</w>
+    </words>
+  </dictionary>
+</component>
+
+======================================
+Archivo: D:\Calidad de software\PROJECTO FINAL\AutomationQAProject\.idea\compiler.xml
+======================================
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="AutomationQAProject" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
+
+======================================
+Archivo: D:\Calidad de software\PROJECTO FINAL\AutomationQAProject\.idea\encodings.xml
+======================================
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
+
+======================================
+Archivo: D:\Calidad de software\PROJECTO FINAL\AutomationQAProject\.idea\jarRepositories.xml
+======================================
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="central" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+  </component>
+</project>
+
+======================================
+Archivo: D:\Calidad de software\PROJECTO FINAL\AutomationQAProject\.idea\misc.xml
+======================================
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
+
+======================================
+Archivo: D:\Calidad de software\PROJECTO FINAL\AutomationQAProject\.idea\workspace.xml
+======================================
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f3ee7949-1491-426a-b326-af3a10109290" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="3CCEUudTuOHWC4alZ5c2qdfJuGA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.CartTest.executor": "Run",
+    "TestNG.CheckoutTest.executor": "Run",
+    "TestNG.CheckoutTest.flujoCheckout.executor": "Debug",
+    "TestNG.D:/Calidad de software/PROJECTO FINAL/AutomationQAProject/src/main/resources/testng.xml.executor": "Run",
+    "TestNG.D:/Calidad de software/PROJECTO FINAL/AutomationQAProject/testng.xml.executor": "Run",
+    "TestNG.LoginTest.executor": "Run",
+    "TestNG.LoginTest.loginCorrect.executor": "Debug",
+    "TestNG.LoginTest.loginCorrecto.executor": "Debug",
+    "TestNG.NegativeLoginTest.executor": "Run",
+    "TestNG.RegisterTest.executor": "Run",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Calidad de software/PROJECTO FINAL/AutomationQAProject",
+    "onboarding.tips.debug.path": "D:/DESARROLLO DE COMPONENTES DEL NEGOCIO/Biblioteca FINAL DEFINITIVO/AutomationQAProject/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Calidad de software\PROJECTO FINAL\AutomationQAProject\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CartTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationQAProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CartTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckoutTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationQAProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CheckoutTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationQAProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NegativeLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationQAProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.NegativeLoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationQAProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.RegisterTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.CheckoutTest" />
+        <item itemvalue="TestNG.RegisterTest" />
+        <item itemvalue="TestNG.NegativeLoginTest" />
+        <item itemvalue="TestNG.CartTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3ee7949-1491-426a-b326-af3a10109290" name="Changes" comment="" />
+      <created>1775881170477</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775881170477</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/utils/WaitUtils.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AutomationQAProject$RegisterTest.ic" NAME="RegisterTest Coverage Results" MODIFIED="1775884337814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>tests.*</FILTER>
+    </SUITE>
+  </component>
+</project>
+
+======================================
+Archivo: D:\Calidad de software\PROJECTO FINAL\AutomationQAProject\src\main\java\base\BaseTest.java
+======================================
+package base;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.*;
+
+import java.time.Duration;
+
+public class BaseTest {
+
+    public WebDriver driver;
+    protected WebDriverWait wait;
+
+    @BeforeMethod
+    @Parameters("browser")
+    public void setUp(@Optional("chrome") String browser) {
+
+        if (browser.equalsIgnoreCase("chrome")) {
+            WebDriverManager.chromedriver().setup();
+            driver = new ChromeDriver();
+
+        } else {
+            // SOLO CHROME (por ahora)
+            WebDriverManager.chromedriver().setup();
+            driver = new ChromeDriver();
+        }
+
+        driver.manage().window().maximize();
+        driver.manage().deleteAllCookies();
+        driver.get("https://automationexercise.com/");
+
+        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+    }
+
+    @AfterMethod
+    public void tearDown() {
+        driver.quit();
+    }
+}
+
+======================================
+Archivo: D:\Calidad de software\PROJECTO FINAL\AutomationQAProject\src\main\java\org\example\Main.java
+======================================
+package org.example;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) {
+        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
+        // to see how IntelliJ IDEA suggests fixing it.
+        System.out.printf("Hello and welcome!");
+
+        for (int i = 1; i <= 5; i++) {
+            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
+            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
+            System.out.println("i = " + i);
+        }
+    }
+}
+
+======================================
+Archivo: D:\Calidad de software\PROJECTO FINAL\AutomationQAProject\src\main\java\pages\CartPage.java
+======================================
+package pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class CartPage {
+
+    WebDriver driver;
+
+    By btnCart = By.xpath("//a[@href='/view_cart']");
+    By btnCheckout = By.xpath("//a[contains(text(),'Proceed To Checkout')]");
+
+    public CartPage(WebDriver driver) {
+        this.driver = driver;
+    }
+
+    public void irCarrito() {
+        WebElement btn = driver.findElement(btnCart);
+
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", btn);
+    }
+
+    public void checkout() {
+        driver.findElement(btnCheckout).click();
+    }
+}
+
+======================================
+Archivo: D:\Calidad de software\PROJECTO FINAL\AutomationQAProject\src\main\java\pages\CheckoutPage.java
+======================================
+package pages;
+
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class CheckoutPage {
+
+    WebDriver driver;
+    WebDriverWait wait;
+
+    By btnCheckout = By.xpath("//a[contains(text(),'Proceed To Checkout')]");
+
+    public CheckoutPage(WebDriver driver, WebDriverWait wait) {
+        this.driver = driver;
+        this.wait = wait;
+    }
+
+    public void realizarCheckout() {
+
+        // ðŸ”¥ Esperar que la pÃ¡gina cargue correctamente
+        wait.until(ExpectedConditions.presenceOfElementLocated(btnCheckout));
+
+        WebElement boton = wait.until(
+                ExpectedConditions.elementToBeClickable(btnCheckout)
+        );
+
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", boton);
+
+        try {
+            boton.click();
+        } catch (ElementClickInterceptedException e) {
+            ((JavascriptExecutor) driver).executeScript("arguments[0].click();", boton);
+        }
+    }
+}
+
+======================================
+Archivo: D:\Calidad de software\PROJECTO FINAL\AutomationQAProject\src\main\java\pages\HomePage.java
+======================================
+package pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class HomePage {
+
+    WebDriver driver;
+
+    By btnLogin = By.xpath("//a[@href='/login']");
+
+    public HomePage(WebDriver driver) {
+        this.driver = driver;
+    }
+
+    public void irLogin() {
+        driver.findElement(btnLogin).click();
+    }
+
+    public void irSignup() {
+    }
+}
+
+======================================
+Archivo: D:\Calidad de software\PROJECTO FINAL\AutomationQAProject\src\main\java\pages\LoginPage.java
+======================================
+package pages;
+
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import utils.WaitUtils;
+
+public class LoginPage {
+
+    WebDriver driver;
+    WebDriverWait wait;
+
+    By email = By.xpath("//input[@data-qa='login-email']");
+    By password = By.xpath("//input[@data-qa='login-password']");
+    By btnLogin = By.xpath("//button[@data-qa='login-button']");
+    By error = By.xpath("//p[contains(text(),'Your email or password is incorrect')]");
+    By loggedUser = By.xpath("//*[contains(text(),'Logged in as')]");
+
+    public LoginPage(WebDriver driver, WebDriverWait wait) {
+        this.driver = driver;
+        this.wait = wait;
+    }
+
+    public void login(String user, String pass) {
+
+        WaitUtils.waitForElement(driver, wait, email);
+
+        driver.findElement(email).clear();
+        driver.findElement(email).sendKeys(user);
+
+        driver.findElement(password).clear();
+        driver.findElement(password).sendKeys(pass);
+
+        WebElement boton = wait.until(ExpectedConditions.elementToBeClickable(btnLogin));
+
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", boton);
+
+        boton.click();
+    }
+
+    // âœ… NUEVO MÃ‰TODO CLAVE
+    public boolean isLoggedIn() {
+        try {
+            return wait.until(driver ->
+                    driver.getPageSource().contains("Logged in as")
+            );
+        } catch (Exception e) {
+            return false;
+        }
+    }
+
+    public String getError() {
+        WebElement errorMsg = wait.until(
+                ExpectedConditions.visibilityOfElementLocated(error)
+        );
+        return errorMsg.getText();
+    }
+}
+
+======================================
+Archivo: D:\Calidad de software\PROJECTO FINAL\AutomationQAProject\src\main\java\pages\ProductPage.java
+======================================
+package pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class ProductPage {
+
+    WebDriver driver;
+
+    By btnProducts = By.xpath("//a[@href='/products']");
+    By addToCart = By.xpath("(//a[contains(text(),'Add to cart')])[1]");
+
+    public ProductPage(WebDriver driver) {
+        this.driver = driver;
+    }
+
+    public void agregarProducto() {
+        driver.findElement(btnProducts).click();
+
+        ((JavascriptExecutor) driver).executeScript("window.scrollBy(0,500)");
+
+        WebElement btn = driver.findElement(addToCart);
+
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", btn);
+    }
+}
+
+======================================
+Archivo: D:\Calidad de software\PROJECTO FINAL\AutomationQAProject\src\main\java\pages\RegisterPage.java
+======================================
+package pages;
+
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import utils.WaitUtils;
+
+public class RegisterPage {
+
+    WebDriver driver;
+    WebDriverWait wait;
+
+    By name = By.name("name");
+    By email = By.xpath("//input[@data-qa='signup-email']");
+    By btnSignup = By.xpath("//button[@data-qa='signup-button']");
+
+    public RegisterPage(WebDriver driver, WebDriverWait wait) {
+        this.driver = driver;
+        this.wait = wait;
+    }
+
+    public void registrar(String user, String mail) {
+
+        // ðŸ”¹ Paso 1: Signup
+        WaitUtils.waitForElement(driver, wait, name);
+
+        driver.findElement(name).clear();
+        driver.findElement(name).sendKeys(user);
+
+        driver.findElement(email).clear();
+        driver.findElement(email).sendKeys(mail);
+
+        WebElement botonSignup = wait.until(
+                ExpectedConditions.elementToBeClickable(btnSignup)
+        );
+
+// ðŸ”¥ Scroll para evitar problemas de visibilidad
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", botonSignup);
+
+// ðŸ”¥ Click seguro (anti anuncios iframe)
+        try {
+            botonSignup.click();
+        } catch (ElementClickInterceptedException e) {
+            ((JavascriptExecutor) driver).executeScript("arguments[0].click();", botonSignup);
+        }
+
+        // ðŸ”¹ Paso 2: Esperar formulario completo
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("id_gender1")));
+
+        driver.findElement(By.id("id_gender1")).click();
+        driver.findElement(By.id("password")).sendKeys("123456");
+
+        new Select(driver.findElement(By.id("days"))).selectByValue("1");
+        new Select(driver.findElement(By.id("months"))).selectByVisibleText("January");
+        new Select(driver.findElement(By.id("years"))).selectByValue("2000");
+
+        driver.findElement(By.id("first_name")).sendKeys("Test");
+        driver.findElement(By.id("last_name")).sendKeys("User");
+        driver.findElement(By.id("address1")).sendKeys("Av Test 123");
+
+        // ðŸ”¥ FIX IMPORTANTE
+        new Select(driver.findElement(By.id("country"))).selectByVisibleText("United States");
+
+        driver.findElement(By.id("state")).sendKeys("Test");
+        driver.findElement(By.id("city")).sendKeys("Test");
+        driver.findElement(By.id("zipcode")).sendKeys("12345");
+        driver.findElement(By.id("mobile_number")).sendKeys("999999999");
+
+        // ðŸ”¥ FIX BOTÃ“N
+        By btnCreate = By.xpath("//button[@data-qa='create-account']");
+        WebElement botonCreate = wait.until(ExpectedConditions.elementToBeClickable(btnCreate));
+
+// ðŸ”¥ Scroll
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", botonCreate);
+
+// ðŸ”¥ Click seguro (anti anuncios)
+        try {
+            botonCreate.click();
+        } catch (ElementClickInterceptedException e) {
+            ((JavascriptExecutor) driver).executeScript("arguments[0].click();", botonCreate);
+        }
+
+        // ðŸ”¹ Paso 3: Validar creaciÃ³n
+        By accountCreated = By.xpath("//b[contains(text(),'Account Created')]");
+        wait.until(ExpectedConditions.visibilityOfElementLocated(accountCreated));
+
+        // ðŸ”¹ Paso 4: Continue (con espera)
+        By btnContinue = By.xpath("//a[@data-qa='continue-button']");
+        wait.until(ExpectedConditions.elementToBeClickable(btnContinue)).click();
+    }
+}
+
+======================================
+Archivo: D:\Calidad de software\PROJECTO FINAL\AutomationQAProject\src\main\java\reports\ExtentManager.java
+======================================
+package reports;
+
+import com.aventstack.extentreports.*;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
+public class ExtentManager {
+
+    public static ExtentReports extent;
+
+    public static ExtentReports getInstance() {
+
+        if (extent == null) {
+            ExtentSparkReporter reporter = new ExtentSparkReporter("reports/Reporte.html");
+            extent = new ExtentReports();
+            extent.attachReporter(reporter);
+        }
+
+        return extent;
+    }
+}
+
+======================================
+Archivo: D:\Calidad de software\PROJECTO FINAL\AutomationQAProject\src\main\java\tests\CartTest.java
+======================================
+package tests;
+
+import base.BaseTest;
+import pages.ProductPage;
+import pages.CartPage;
+import org.testng.annotations.*;
+import utils.TestListener;
+
+@Listeners(TestListener.class)
+public class CartTest extends BaseTest {
+
+    @Test
+    public void agregarAlCarrito() {
+
+        ProductPage product = new ProductPage(driver);
+        product.agregarProducto();
+
+        CartPage cart = new CartPage(driver);
+        cart.irCarrito();
+    }
+}
+
+======================================
+Archivo: D:\Calidad de software\PROJECTO FINAL\AutomationQAProject\src\main\java\tests\CheckoutTest.java
+======================================
+package tests;
+
+import base.BaseTest;
+import pages.ProductPage;
+import pages.CartPage;
+import pages.CheckoutPage;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.testng.annotations.*;
+import utils.TestListener;
+
+@Listeners(TestListener.class)
+public class CheckoutTest extends BaseTest {
+
+    @Test
+    public void flujoCheckout() {
+
+        // ðŸ”¹ Agregar producto
+        ProductPage product = new ProductPage(driver);
+        product.agregarProducto();
+
+        // ðŸ”¥ FIX: manejar modal "View Cart" (ANTI-ANUNCIOS)
+        By btnViewCart = By.xpath("//u[contains(text(),'View Cart')]");
+        WebElement boton = wait.until(ExpectedConditions.elementToBeClickable(btnViewCart));
+
+        // Scroll para evitar overlays
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", boton);
+
+        try {
+            boton.click();
+        } catch (ElementClickInterceptedException e) {
+            // ðŸ”¥ Si un anuncio bloquea â†’ click con JS
+            ((JavascriptExecutor) driver).executeScript("arguments[0].click();", boton);
+        }
+
+        // ðŸ”¹ Ir al carrito
+        CartPage cart = new CartPage(driver);
+        cart.irCarrito();
+
+        // ðŸ”¹ Checkout
+        CheckoutPage checkout = new CheckoutPage(driver, wait);
+        checkout.realizarCheckout();
+    }
+}
+
+======================================
+Archivo: D:\Calidad de software\PROJECTO FINAL\AutomationQAProject\src\main\java\tests\LoginTest.java
+======================================
+package tests;
+
+import base.BaseTest;
+import org.openqa.selenium.By;
+import pages.HomePage;
+import pages.LoginPage;
+import org.testng.annotations.*;
+import org.testng.Assert;
+import pages.RegisterPage;
+import utils.TestData;
+import utils.TestListener;
+
+@Listeners(TestListener.class)
+public class LoginTest extends BaseTest {
+
+    @Test
+    public void loginCorrecto() {
+
+        HomePage home = new HomePage(driver);
+
+        // ðŸ”¥ EMAIL ÃšNICO (CLAVE)
+        String email = "user" + System.currentTimeMillis() + "@test.com";
+        String password = "123456";
+
+        // ðŸ”¥ REGISTRO
+        home.irLogin(); // ESTA es la pantalla correcta
+
+        RegisterPage register = new RegisterPage(driver, wait);
+        register.registrar("TestUser", email);
+
+        // ðŸ”¥ LOGOUT (IMPORTANTE)
+        driver.findElement(By.xpath("//a[contains(text(),'Logout')]")).click();
+
+        // ðŸ”¥ LOGIN
+        home.irLogin();
+
+        LoginPage login = new LoginPage(driver, wait);
+        login.login(email, password);
+
+        // ðŸ”¥ VALIDACIÃ“N REAL
+        Assert.assertTrue(login.isLoggedIn(), "El login fallÃ³");
+    }
+}
+
+======================================
+Archivo: D:\Calidad de software\PROJECTO FINAL\AutomationQAProject\src\main\java\tests\NegativeLoginTest.java
+======================================
+package tests;
+
+import base.BaseTest;
+import pages.HomePage;
+import pages.LoginPage;
+import org.testng.annotations.*;
+import org.testng.Assert;
+import utils.TestListener;
+
+@Listeners(TestListener.class)
+public class NegativeLoginTest extends BaseTest {
+
+    @Test
+    public void loginFallido() {
+
+        HomePage home = new HomePage(driver);
+        home.irLogin();
+
+        LoginPage login = new LoginPage(driver, wait);
+        login.login("fake@test.com", "wrongpass");
+
+        Assert.assertTrue(login.getError().contains("incorrect"));
+    }
+}
+
+======================================
+Archivo: D:\Calidad de software\PROJECTO FINAL\AutomationQAProject\src\main\java\tests\RegisterTest.java
+======================================
+package tests;
+
+import base.BaseTest;
+import pages.HomePage;
+import pages.RegisterPage;
+import org.testng.annotations.*;
+import utils.TestData;
+import utils.TestListener;
+
+@Listeners(TestListener.class)
+public class RegisterTest extends BaseTest {
+
+    @Test
+    public void registrarUsuario() {
+
+        HomePage home = new HomePage(driver);
+        home.irLogin();
+
+        RegisterPage register = new RegisterPage(driver, wait);
+
+        TestData.email = "user" + System.currentTimeMillis() + "@test.com";
+
+        System.out.println("Email generado: " + TestData.email);
+
+        register.registrar("Josled", TestData.email);
+
+    }
+}
+
+======================================
+Archivo: D:\Calidad de software\PROJECTO FINAL\AutomationQAProject\src\main\java\utils\ScreenshotUtils.java
+======================================
+package utils;
+
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+
+import java.io.File;
+import java.nio.file.Files;
+
+public class ScreenshotUtils {
+
+    public static String takeScreenshot(WebDriver driver, String testName) {
+        try {
+            File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+            String path = "screenshots/" + testName + ".png";
+            Files.copy(src.toPath(), new File(path).toPath());
+            return path;
+        } catch (Exception e) {
+            return null;
+        }
+    }
+}
+
+======================================
+Archivo: D:\Calidad de software\PROJECTO FINAL\AutomationQAProject\src\main\java\utils\TestData.java
+======================================
+package utils;
+
+public class TestData {
+    public static String email = "test@test.com";
+    public static String password = "123456";
+}
+
+======================================
+Archivo: D:\Calidad de software\PROJECTO FINAL\AutomationQAProject\src\main\java\utils\TestListener.java
+======================================
+package utils;
+
+import org.testng.ITestListener;
+import org.testng.ITestResult;
+import reports.ExtentManager;
+import com.aventstack.extentreports.*;
+import org.openqa.selenium.WebDriver;
+
+public class TestListener implements ITestListener {
+
+    ExtentReports extent = ExtentManager.getInstance();
+    ExtentTest test;
+
+    @Override
+    public void onTestStart(ITestResult result) {
+        test = extent.createTest(result.getName());
+    }
+
+    @Override
+    public void onTestSuccess(ITestResult result) {
+        test.pass("Test PASSED");
+    }
+
+    @Override
+    public void onTestFailure(ITestResult result) {
+
+        test.fail(result.getThrowable());
+
+        Object currentClass = result.getInstance();
+        WebDriver driver = ((base.BaseTest) currentClass).driver;
+
+        String path = ScreenshotUtils.takeScreenshot(driver, result.getName());
+
+        if (path != null) {
+            try {
+                test.addScreenCaptureFromPath(path);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    @Override
+    public void onFinish(org.testng.ITestContext context) {
+        extent.flush();
+    }
+}
+
+======================================
+Archivo: D:\Calidad de software\PROJECTO FINAL\AutomationQAProject\src\main\java\utils\WaitUtils.java
+======================================
+package utils;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class WaitUtils {
+
+    public static void waitForElement(WebDriver driver, WebDriverWait wait, By locator) {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+    }
+}
+
+======================================
+Archivo: D:\Calidad de software\PROJECTO FINAL\AutomationQAProject\pom.xml
+======================================
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>AutomationQAProject</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+
+        <!-- Selenium -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.18.1</version>
+        </dependency>
+
+        <!-- WebDriverManager -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>5.6.3</version>
+        </dependency>
+
+        <!-- TestNG -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.9.0</version>
+        </dependency>
+
+        <!-- Extent Reports -->
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>5.1.1</version>
+        </dependency>
+
+    </dependencies>
+
+</project>
+
+======================================
+Archivo: D:\Calidad de software\PROJECTO FINAL\AutomationQAProject\testng.xml
+======================================
+<suite name="SuiteQA">
+
+    <test name="Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="tests.RegisterTest"/>
+            <class name="tests.LoginTest"/>
+            <class name="tests.NegativeLoginTest"/>
+            <class name="tests.CartTest"/>
+            <class name="tests.CheckoutTest"/>
+        </classes>
+    </test>
+
+    <test name="Edge">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+
+</suite>
+
