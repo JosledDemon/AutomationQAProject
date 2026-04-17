@@ -28,6 +28,9 @@ public class LoginTest extends BaseTest {
         RegisterPage register = new RegisterPage(driver, wait);
         register.registrar("TestUser", email);
 
+        // 🔥 limpiar anuncios otra vez
+        eliminarPublicidad();
+
         // 🔥 LOGOUT (IMPORTANTE)
         driver.findElement(By.xpath("//a[contains(text(),'Logout')]")).click();
 
@@ -36,6 +39,9 @@ public class LoginTest extends BaseTest {
 
         LoginPage login = new LoginPage(driver, wait);
         login.login(email, password);
+
+        // 🔥 limpiar anuncios otra vez
+        eliminarPublicidad();
 
         // 🔥 VALIDACIÓN REAL
         Assert.assertTrue(login.isLoggedIn(), "El login falló");

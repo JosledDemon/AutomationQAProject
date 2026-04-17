@@ -47,6 +47,7 @@ public class BaseTest {
             options.addArguments("--disable-popup-blocking");
             options.addArguments("--disable-blink-features=AutomationControlled");
 
+
             driver = new ChromeDriver(options);
         }
 
@@ -57,17 +58,22 @@ public class BaseTest {
         eliminarPublicidad();
     }
 
-    // 🔥 MÉTODO NUEVO (NO rompe nada)
+    // 🔥 REEMPLAZA TU MÉTODO eliminarPublicidad POR ESTE
     public void eliminarPublicidad() {
         try {
             JavascriptExecutor js = (JavascriptExecutor) driver;
 
             js.executeScript(
-                    "document.querySelectorAll('iframe, .adsbygoogle, .advertisement').forEach(el => el.remove());"
+                    "document.querySelectorAll('iframe, .adsbygoogle, .advertisement, #google_vignette').forEach(el => el.remove());"
             );
 
+            // 🔥 SI IGUAL REDIRIGE
+            if (driver.getCurrentUrl().contains("google_vignette")) {
+                driver.navigate().to("https://automationexercise.com/");
+            }
+
         } catch (Exception e) {
-            // ignorar si no hay anuncios
+            // ignorar
         }
     }
 
