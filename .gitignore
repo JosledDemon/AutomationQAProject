@@ -37,3 +37,15 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# Maven
+target/
+
+# Reports
+reports/
+
+# Screenshots
+screenshots/
+
+# Logs
+*.log

@@ -1,0 +1,119 @@
+{
+  "info": {
+    "_postman_id": "a11c1dc7-a285-4962-b901-c738aa950442",
+    "name": "01-QATest - Registro/Login",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "49595821",
+    "_collection_link": "https://go.postman.co/collection/49595821-a11c1dc7-a285-4962-b901-c738aa950442?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "register",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIxIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6ImFkbWluIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZW1haWxhZGRyZXNzIjoiYWRtaW5AZ2ltbmFzaW8uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQURNSU4iLCJleHAiOjE3NzU1NDEzMjUsImlzcyI6IkFwaUlkZW50aXR5IiwiYXVkIjoiR2ltbmFzaW9BcHAifQ.goZU2-V4zVk5kzSjvTZ_f4Est-fPRokNls1BPp0CJTI",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"userName\": \"admin\",\r\n  \"email\": \"admin@gimnasio.com\",\r\n  \"password\": \"Admin123!\",\r\n  \"role\": \"ADMIN\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5079/api/auth/register",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5079",
+          "path": [
+            "api",
+            "auth",
+            "register"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "login",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "// 1. Obtener la respuesta en formato JSON\r",
+              "const response = pm.response.json();\r",
+              "\r",
+              "// 2. Extraer el token. Ajusta 'token' al nombre exacto que use tu API\r",
+              "// Si tu respuesta es { \"token\": \"...\" }, usa response.token\r",
+              "const token = response.token; \r",
+              "\r",
+              "if (token) {\r",
+              "    // 3. Guardar el token en la variable de entorno que definiste\r",
+              "    pm.environment.set(\"token_actual\", token);\r",
+              "    console.log(\"¡Token guardado con éxito!\");\r",
+              "} else {\r",
+              "    console.warn(\"No se encontró el campo 'token' en la respuesta.\");\r",
+              "}\r",
+              "\r",
+              "//------------------------------------------------------------------------\r",
+              "pm.test(\"Consulta exitosa\", function () {\r",
+              "    pm.response.to.have.status(200);\r",
+              "});\r",
+              "\r",
+              "pm.test(\"El cuerpo de respuesta no está vacío\", function () {\r",
+              "    pm.response.to.be.withBody;\r",
+              "});"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"userName\": \"admin\",\r\n  \"password\": \"Admin123!\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5079/api/auth/login",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5079",
+          "path": [
+            "api",
+            "auth",
+            "login"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

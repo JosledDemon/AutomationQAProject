@@ -38,7 +38,7 @@ public class LoginPage {
         boton.click();
     }
 
-    // ✅ NUEVO MÉTODO CLAVE //
+    // ✅ NUEVO METODO CLAVE //
     public boolean isLoggedIn() {
         try {
             return wait.until(driver ->

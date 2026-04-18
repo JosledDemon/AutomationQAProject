@@ -1,0 +1,361 @@
+{
+  "info": {
+    "_postman_id": "176b0ce9-96c8-4864-abb5-d1f7b0bdc6ef",
+    "name": "02-QATest",
+    "description": "### Welcome to Postman! This is your first collection. \n\nCollections are your starting point for building and testing APIs. You can use this one to:\n\n• Group related requests\n• Test your API in real-world scenarios\n• Document and share your requests\n\nUpdate the name and overview whenever you’re ready to make it yours.\n\n[Learn more about Postman Collections.](https://learning.postman.com/docs/collections/collections-overview/)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "49595821",
+    "_collection_link": "https://go.postman.co/collection/49595821-176b0ce9-96c8-4864-abb5-d1f7b0bdc6ef?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Ver mi usuario",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{token_actual}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5079/api/auth/me",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5079",
+          "path": [
+            "api",
+            "auth",
+            "me"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Registro Entrenadores",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{token_actual}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"userName\": \"Tester_{{$timestamp}}\",\r\n  \"email\": \"test_{{$randomInt}}@gimnasio.com\",\r\n  \"password\": \"Password123!\",\r\n  \"phoneNumber\": \"999888777\",\r\n  \"especialidad\": \"QA Testing\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5081/api/entrenadores",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5081",
+          "path": [
+            "api",
+            "entrenadores"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Registro socios",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{token_actual}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"userName\": \"Socio_{{$timestamp}}\",\r\n  \"email\": \"socio_{{$randomInt}}@gimnasio.com\",\r\n  \"password\": \"Socio123!\",\r\n  \"role\": \"SOCIO\"\r\n}\r\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5081/api/socios",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5081",
+          "path": [
+            "api",
+            "socios"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ver Entrenadores",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{token_actual}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5081/api/entrenadores",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5081",
+          "path": [
+            "api",
+            "entrenadores"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Ver socios",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{token_actual}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5081/api/socios",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5081",
+          "path": [
+            "api",
+            "socios"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Actualizar entrenador",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{token_actual}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"userName\": \"carloscoach\",\r\n  \"email\": \"carlos@gimnasio.com\",\r\n  \"password\": \"Carlos123!\",\r\n  \"phoneNumber\": \"888888888\",\r\n  \"especialidad\": \"Vago dormilon\",\r\n  \"certificaciones\": \"ACE Certified Personal Trainer\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5081/api/entrenadores/2",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5081",
+          "path": [
+            "api",
+            "entrenadores",
+            "2"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "actualizar socio",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{token_actual}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"fechaNacimiento\": \"1990-05-15\",\r\n  \"genero\": \"M\",\r\n  \"alturaCm\": 156.00,\r\n  \"pesoKg\": 90.50,\r\n  \"emergenciaNombre\": \"Pedro Gomez\",\r\n  \"emergenciaTelefono\": \"555444333\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5081/api/socios/2",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5081",
+          "path": [
+            "api",
+            "socios",
+            "2"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "registrar asistencias",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{token_actual}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"socioId\": 2,\r\n  \"observaciones\": \"Llegó temprano al gimnasio\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5081/api/asistencias",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5081",
+          "path": [
+            "api",
+            "asistencias"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Ver asistencias",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{token_actual}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"socioId\": 2,\r\n  \"observaciones\": \"Llegó temprano al gimnasio\"\r\n}"
+        },
+        "url": {
+          "raw": "http://localhost:5081/api/asistencias",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5081",
+          "path": [
+            "api",
+            "asistencias"
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ]
+}

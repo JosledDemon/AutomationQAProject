@@ -1,0 +1,453 @@
+{
+  "info": {
+    "_postman_id": "1f926a89-29f8-4e70-b190-fd831f24d3af",
+    "name": "03-QAtest",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "49595821",
+    "_collection_link": "https://go.postman.co/collection/49595821-1f926a89-29f8-4e70-b190-fd831f24d3af?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Crear rutinas",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{token_actual}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"socioId\": 2,\r\n  \"nombre\": \"Rutina Fuerza Principiante\",\r\n  \"objetivo\": \"Ganar masa muscular\",\r\n  \"fechaFin\": \"2026-06-29\",\r\n  \"ejercicios\": [\r\n    {\r\n      \"ejercicioId\": 1,\r\n      \"orden\": 1,\r\n      \"series\": 3,\r\n      \"repeticiones\": 12,\r\n      \"pesoObjetivoKg\": 20.00,\r\n      \"duracionSegundos\": null,\r\n      \"descansoSegundos\": 60\r\n    },\r\n    {\r\n      \"ejercicioId\": 2,\r\n      \"orden\": 2,\r\n      \"series\": 3,\r\n      \"repeticiones\": 10,\r\n      \"pesoObjetivoKg\": 15.00,\r\n      \"descansoSegundos\": 90\r\n    }\r\n  ]\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5081/api/rutinas",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5081",
+          "path": [
+            "api",
+            "rutinas"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ver rutinas",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{token_actual}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5081/api/rutinas",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5081",
+          "path": [
+            "api",
+            "rutinas"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ver ejercicios",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"socioId\": 2,\r\n  \"membresiaId\": 1,\r\n  \"fechaInicio\": \"2026-03-29\",\r\n  \"montoPagado\": 1500.00,\r\n  \"notas\": \"Pago en efectivo\"\r\n}"
+        },
+        "url": {
+          "raw": "http://localhost:5251/api/ejercicios",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5251",
+          "path": [
+            "api",
+            "ejercicios"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Crear ejercicios",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{token_actual}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"nombre\": \"Press de Banca\",\r\n  \"descripcion\": \"Ejercicio para pectorales con barra\",\r\n  \"grupoMuscular\": \"Pectorales\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5251/api/ejercicios",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5251",
+          "path": [
+            "api",
+            "ejercicios"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Actualizar ejercicios",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{token_actual}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"nombre\": \"Press de Banca\",\r\n  \"descripcion\": \"Ejercicio compound para pectorales\",\r\n  \"grupoMuscular\": \"Pectorales\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5251/api/ejercicios/4",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5251",
+          "path": [
+            "api",
+            "ejercicios",
+            "4"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Registrar membresias",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{token_actual}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"nombre\": \"Mensual Premium\",\r\n  \"descripcion\": \"Acceso completo a todas las instalaciones\",\r\n  \"duracionDias\": 30,\r\n  \"precio\": 1500.00,\r\n  \"esRenovable\": true\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5215/api/membresias",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5215",
+          "path": [
+            "api",
+            "membresias"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Actualizar membresias",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{token_actual}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"nombre\": \"Mensual Premium Actualizado\",\r\n  \"precio\": 1600.00\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5215/api/membresias/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5215",
+          "path": [
+            "api",
+            "membresias",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Ver membresias",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5215/api/membresias",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5215",
+          "path": [
+            "api",
+            "membresias"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Asignar sociomembresia",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{token_actual}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"socioId\": 2,\r\n  \"membresiaId\": 1,\r\n  \"fechaInicio\": \"2026-03-29\",\r\n  \"montoPagado\": 1500.00,\r\n  \"notas\": \"Pago en efectivo\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5215/api/sociomembresia",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5215",
+          "path": [
+            "api",
+            "sociomembresia"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Ver sociomembresia ",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{token_actual}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"socioId\": 2,\r\n  \"membresiaId\": 1,\r\n  \"fechaInicio\": \"2026-03-29\",\r\n  \"montoPagado\": 1500.00,\r\n  \"notas\": \"Pago en efectivo\"\r\n}"
+        },
+        "url": {
+          "raw": "http://localhost:5215/api/sociomembresia/socio/2",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5215",
+          "path": [
+            "api",
+            "sociomembresia",
+            "socio",
+            "2"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Actualizar sociomembresia id",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{token_actual}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"estado\": \"PAUSADA\",\r\n  \"notas\": \"Suspendido temporalmente\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5215/api/sociomembresia/1002",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5215",
+          "path": [
+            "api",
+            "sociomembresia",
+            "1002"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Ver Entrenadores asignados a socios",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{token_actual}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"entrenadorId\": 2\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5081/api/socios/2/entrenadores",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5081",
+          "path": [
+            "api",
+            "socios",
+            "2",
+            "entrenadores"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

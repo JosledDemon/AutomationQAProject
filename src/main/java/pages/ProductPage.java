@@ -56,7 +56,7 @@ public class ProductPage {
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", btn);
     }
 
-    // 🔥 MÉTODO PRO ESTABLE
+    // 🔥 METODO PRO ESTABLE
 
 
     public void agregarMultiplesProductos(int cantidad) {
